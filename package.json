@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-v1",
+  "version": "1.0.0",
+  "description": "Kenneth G. Portfolio prototype",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w SCSS/ -o Prod/Resources/CSS --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
