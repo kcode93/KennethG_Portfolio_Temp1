@@ -1,0 +1,21 @@
+#logo {
+	width: 70px;
+	height: 70px;
+	color: $logo-color;
+	text-transform: uppercase;
+}
+
+#header {
+	&-home {
+		background: $bg-image;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 100vh;
+		color: #fff;
+	}
+
+	&-content {
+		color: #fff;
+	}
+}

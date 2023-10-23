@@ -1,19 +1,19 @@
 //base
-@import 'Global/variables.scss';
-@import 'Global/mixins.scss';
-@import 'Global/reset.scss';
-@import 'Global/base.scss';
+@import "Global/variables";
+@import "Global/mixins";
+@import "Global/reset";
+@import "Global/base";
 
 //layout
-//@import 'Layout/header.scss';
-//@import 'Layout/nav.scss';
-//@import 'Layout/sections.scss';
-//@import 'Layout/footer.scss';
+@import "Layout/header";
+@import "Layout/nav";
+//@import 'Layout/sections';
+//@import 'Layout/footer';
 
 //modules
-@import 'Modules/typography.scss';
-@import 'Modules/buttons.scss';
-@import 'Modules/utilities.scss';
+@import "Modules/typography";
+@import "Modules/buttons";
+@import "Modules/utilities";
 
 //media queries
-@import 'Layout/mobile.scss';
+@import "Layout/mobile";

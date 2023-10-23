@@ -144,6 +144,23 @@ UL {
 img {
   width: 100%; }
 
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase; }
+
+#header-home {
+  background: url("../IMG/showcase.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff; }
+
+#header-content {
+  color: #fff; }
+
 h2,
 h3,
 h4 {
