@@ -126,3 +126,25 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  background: #fff; }
+
+a {
+  text-decoration: none; }
+
+UL {
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
