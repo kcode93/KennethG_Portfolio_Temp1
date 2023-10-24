@@ -13,9 +13,19 @@
 		background-repeat: no-repeat;
 		height: 100vh;
 		color: #fff;
-	}
 
-	&-content {
-		color: #fff;
+		.header-content {
+			color: #fff;
+			text-align: center;
+			padding: 10%;
+
+			h1,
+			span {
+				font-size: 4rem;
+				line-height: 1.2rem;
+				margin-top: 2rem;
+				margin-bottom: 4rem;
+			}
+		}
 	}
 }

@@ -1,0 +1,36 @@
+//Button backbones
+%btn-shared {
+	display: inline-block;
+	padding: 0.8rem 2rem;
+	transition: all 0.5s;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+.btn {
+	&-main {
+		@extend %btn-shared;
+		color: $dark-color;
+		background-color: $primary-color;
+	}
+
+	&-light {
+		@extend %btn-shared;
+		color: $dark-color;
+		background-color: $light-color;
+	}
+
+	&-dark {
+		@extend %btn-shared;
+		color: $light-color;
+		background-color: $dark-color;
+	}
+}
+
+//tied to anything with .btn class
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+	background-color: $primary-color;
+}
