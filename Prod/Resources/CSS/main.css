@@ -144,7 +144,7 @@ body {
 a {
   text-decoration: none; }
 
-UL {
+ul {
   list-style: none; }
 
 img {
@@ -209,9 +209,6 @@ img {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
 
-#home-section-A .section-title {
-  font-size: 2rem; }
-
 #home-section-B .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
@@ -229,6 +226,9 @@ img {
     #home-section-B .stats div:nth-child(even) {
       background: #ccc; }
 
+#home-section-C {
+  background-color: red; }
+
 h2,
 h3,
 h4 {
@@ -243,6 +243,14 @@ h4 {
 
 .text-center {
   text-align: center; }
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase; }
 
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
@@ -358,3 +366,10 @@ input[class^="btn-"]:hover {
 
 .m-5 {
   margin: 5rem; }
+
+.bottom-line {
+  height: 5px;
+  width: 10rem;
+  background-color: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }

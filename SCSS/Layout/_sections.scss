@@ -12,10 +12,6 @@
 				padding-bottom: 0.4rem;
 			}
 		}
-
-		.section-title {
-			font-size: 2rem;
-		}
 	}
 
 	//Section B: Stats
@@ -49,5 +45,10 @@
 				}
 			}
 		}
+	}
+
+	//Section C: Process
+	&-section-C {
+		background-color: red;
 	}
 }
