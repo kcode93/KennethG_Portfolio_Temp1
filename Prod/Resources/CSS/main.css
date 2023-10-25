@@ -209,6 +209,26 @@ img {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
 
+#home-section-A .section-title {
+  font-size: 2rem; }
+
+#home-section-B .stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  #home-section-B .stats li {
+    line-height: 2; }
+    #home-section-B .stats li.stats-title {
+      font-size: 1.5rem; }
+    #home-section-B .stats li.stats-number {
+      font-size: 2rem;
+      font-weight: bold; }
+  #home-section-B .stats div {
+    padding: 3rem 0; }
+    #home-section-B .stats div:nth-child(odd) {
+      background: #f4f4f4; }
+    #home-section-B .stats div:nth-child(even) {
+      background: #ccc; }
+
 h2,
 h3,
 h4 {
