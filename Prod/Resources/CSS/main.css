@@ -136,7 +136,7 @@ body {
   background: #fff; }
 
 .container {
-  max-width: 1280px;
+  max-width: 1500px;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden; }
@@ -167,12 +167,18 @@ img {
     color: #fff;
     text-align: center;
     padding: 10%; }
-    #header-home .header-content h1,
     #header-home .header-content span {
-      font-size: 4rem;
+      font-size: 3rem;
+      font-weight: bold;
+      line-height: 1rem;
+      margin-bottom: 4rem; }
+    #header-home .header-content h1 {
+      font-size: 3rem;
       line-height: 1.2rem;
       margin-top: 2rem;
       margin-bottom: 4rem; }
+    #header-home .header-content .lead {
+      font-size: 2rem; }
 
 #main-nav {
   display: flex;
@@ -194,10 +200,22 @@ img {
     #main-nav a.current {
       border-color: #ffbc00; }
 
+#home-section-A .specials {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr); }
+  #home-section-A .specials .fas {
+    color: #ffbc00;
+    padding-bottom: 0.4rem; }
+
 h2,
 h3,
 h4 {
   text-transform: uppercase; }
+
+.bold {
+  font-weight: bold; }
 
 .lead {
   font-size: 1.3rem;
@@ -230,3 +248,93 @@ button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: #ffbc00; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.py-5 {
+  padding: 5rem 0; }
+
+.px-1 {
+  padding: 0 1rem; }
+
+.px-2 {
+  padding: 0 2rem; }
+
+.px-3 {
+  padding: 0 3rem; }
+
+.px-4 {
+  padding: 0 4rem; }
+
+.px-5 {
+  padding: 0 5rem; }
+
+.p-1 {
+  padding: 1rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.p-3 {
+  padding: 3rem; }
+
+.p-4 {
+  padding: 4rem; }
+
+.p-5 {
+  padding: 5rem; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.my-5 {
+  margin: 5rem 0; }
+
+.mx-1 {
+  margin: 0 1rem; }
+
+.mx-2 {
+  margin: 0 2rem; }
+
+.mx-3 {
+  margin: 0 3rem; }
+
+.mx-4 {
+  margin: 0 4rem; }
+
+.mx-5 {
+  margin: 0 5rem; }
+
+.m-1 {
+  margin: 1rem; }
+
+.m-2 {
+  margin: 2rem; }
+
+.m-3 {
+  margin: 3rem; }
+
+.m-4 {
+  margin: 4rem; }
+
+.m-5 {
+  margin: 5rem; }

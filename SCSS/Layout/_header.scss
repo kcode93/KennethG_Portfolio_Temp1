@@ -19,12 +19,22 @@
 			text-align: center;
 			padding: 10%;
 
-			h1,
-			span {
-				font-size: 4rem;
+			span{
+				font-size: 3rem;
+				font-weight: bold;
+				line-height: 1rem;
+				margin-bottom: 4rem;
+			}
+
+			h1 {
+				font-size: 3rem;
 				line-height: 1.2rem;
 				margin-top: 2rem;
 				margin-bottom: 4rem;
+			}
+
+			.lead{
+				font-size: 2rem;
 			}
 		}
 	}
