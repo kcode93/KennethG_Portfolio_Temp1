@@ -49,6 +49,38 @@
 
 	//Section C: Process
 	&-section-C {
-		background-color: red;
+		.process {
+			@include display-Grid(4, 1.5rem);
+			text-align: center;
+
+			&-icon {
+				border-radius: 50%;
+				background-color: $dark-color;
+				color: #fff;
+				padding: 2rem;
+				width: 8.5rem;
+				height: 8.5rem;
+				line-height: 70px;
+				text-align: center;
+				position: relative;
+			}
+
+			&-step {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				top: 0;
+				right: 0;
+				font-size: 1.5rem;
+				background: $primary-color;
+				border-radius: 50%;
+				height: 3rem;
+				width: 3rem;
+				line-height: 15px;
+				padding: 1rem;
+				transition: all 1s;
+			}
+		}
 	}
 }

@@ -226,8 +226,36 @@ img {
     #home-section-B .stats div:nth-child(even) {
       background: #ccc; }
 
-#home-section-C {
-  background-color: red; }
+#home-section-C .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center; }
+  #home-section-C .process-icon {
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 8.5rem;
+    height: 8.5rem;
+    line-height: 70px;
+    text-align: center;
+    position: relative; }
+  #home-section-C .process-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    background: #ffbc00;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    line-height: 15px;
+    padding: 1rem;
+    transition: all 1s; }
 
 h2,
 h3,
