@@ -110,6 +110,7 @@
 		//Grid Areas
 		.bio-image {
 			grid-area: bioimage;
+			border-bottom: 5px solid $primary-color;
 		}
 
 		.bio {

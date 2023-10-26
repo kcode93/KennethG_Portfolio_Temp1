@@ -279,7 +279,8 @@ img {
   gap: 1.2rem; }
 
 #about-section-A .bio-image {
-  grid-area: bioimage; }
+  grid-area: bioimage;
+  border-bottom: 5px solid #ffbc00; }
 
 #about-section-A .bio {
   display: flex;
