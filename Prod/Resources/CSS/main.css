@@ -240,7 +240,14 @@ img {
     height: 8.5rem;
     line-height: 70px;
     text-align: center;
-    position: relative; }
+    position: relative;
+    transition: all 1s; }
+    #home-section-C .process-icon:hover {
+      background-color: #ffbc00;
+      width: 9rem;
+      height: 9rem; }
+      #home-section-C .process-icon:hover .process-step {
+        background-color: #333; }
   #home-section-C .process-step {
     display: flex;
     justify-content: center;

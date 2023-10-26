@@ -63,6 +63,17 @@
 				line-height: 70px;
 				text-align: center;
 				position: relative;
+				transition: all 1s;
+
+				&:hover{
+					background-color: $primary-color;
+					width: 9rem;
+					height: 9rem;
+
+					.process-step{
+						background-color: $dark-color;
+					}
+				}
 			}
 
 			&-step {
