@@ -157,7 +157,7 @@ img {
   text-transform: uppercase; }
 
 #header-home {
-  background: url("../IMG/showcase.jpg");
+  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 0.215), rgba(0, 0, 0, 0.592)), url("../IMG/showcase.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,6 +179,15 @@ img {
       margin-bottom: 4rem; }
     #header-home .header-content .lead {
       font-size: 2rem; }
+
+#header-inner {
+  background-image: linear-gradient(to bottom, rgba(19, 19, 19, 0.215), rgba(0, 0, 0, 0.592)), url("../IMG/showcase.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 6.5rem;
+  color: #fff;
+  border-bottom: 3px solid #ffbc00; }
 
 #main-nav {
   display: flex;
