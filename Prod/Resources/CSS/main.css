@@ -273,6 +273,40 @@ img {
     padding: 1rem;
     transition: all 1s; }
 
+#about-section-A .about-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  gap: 1.2rem; }
+
+#about-section-A .bio-image {
+  grid-area: bioimage; }
+
+#about-section-A .bio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.5rem;
+  font-size: 1.2rem; }
+
+#about-section-A .award-1 {
+  grid-area: aw1; }
+
+#about-section-A .award-2 {
+  grid-area: aw2; }
+
+#about-section-A .award-3 {
+  grid-area: aw3; }
+
+#about-section-A .award-1 .fas,
+#about-section-A .award-2 .fas,
+#about-section-A .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem; }
+
 #main-footer {
   background-color: #333;
   color: #fff;
@@ -442,3 +476,19 @@ input[class^="btn-"]:hover {
   background-color: #ffbc00;
   display: block;
   margin: 0 auto 1rem auto; }
+
+.bg-primary {
+  background-color: #ffbc00;
+  color: #fff; }
+
+.bg-dark {
+  background-color: #333;
+  color: #fff; }
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background-color: #ccc;
+  color: #000; }
