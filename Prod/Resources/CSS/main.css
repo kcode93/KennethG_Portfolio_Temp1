@@ -264,6 +264,31 @@ img {
     padding: 1rem;
     transition: all 1s; }
 
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social-media .fab {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: 2.5rem;
+      width: 2.5rem;
+      line-height: 1.5rem;
+      text-align: center;
+      padding: 0.5rem;
+      transition: all 1s; }
+      #main-footer .footer-content .social-media .fab:hover {
+        background-color: #ffbc00;
+        cursor: pointer; }
+
 h2,
 h3,
 h4 {

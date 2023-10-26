@@ -3,3 +3,18 @@
 	grid-template-columns: repeat($col, 1fr);
 	gap: $gap;
 }
+
+@mixin Flex($direction, $justify-content){
+	display: flex;
+	justify-content: $justify-content;
+	flex-direction: $direction;
+	align-items: center;
+}
+
+@function set-text-color($background-color){
+	@if(lightness($background-color) > 50){
+		@return #000;
+	}@else{
+		@return #fff;
+	}
+}
