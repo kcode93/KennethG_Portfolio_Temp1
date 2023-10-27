@@ -320,6 +320,13 @@ img {
     text-align: center;
     background-color: #ffbc00; }
 
+#about-section-C .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem; }
+  #about-section-C .about-logos img {
+    width: 70%; }
+
 #main-footer {
   background-color: #333;
   color: #fff;
