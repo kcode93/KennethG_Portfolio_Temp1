@@ -308,6 +308,18 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
+#about-section-B .progress {
+  overflow: hidden;
+  height: 2rem;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem; }
+  #about-section-B .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #ffbc00; }
+
 #main-footer {
   background-color: #333;
   color: #fff;

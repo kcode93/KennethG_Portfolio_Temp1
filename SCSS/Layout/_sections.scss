@@ -144,4 +144,21 @@
 			margin: 1rem;
 		}
 	}
+
+	&-section-B{
+		.progress{
+			overflow: hidden;
+			height: 2rem;
+			background-color: $medium-color;
+			border-radius: 5px;
+			margin-bottom: 1rem;
+
+			div{
+				height: 100%;
+				color: #fff;
+				text-align: center;
+				background-color: $primary-color;
+			}
+		}
+	}
 }
