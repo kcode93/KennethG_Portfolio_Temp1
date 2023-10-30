@@ -327,6 +327,28 @@ img {
   #about-section-C .about-logos img {
     width: 70%; }
 
+#about-section-D .testimonials {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(4, 1fr); }
+  #about-section-D .testimonials ul {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  #about-section-D .testimonials p {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center; }
+  #about-section-D .testimonials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 0.5rem; }
+
 #main-footer {
   background-color: #333;
   color: #fff;
