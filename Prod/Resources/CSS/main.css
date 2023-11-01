@@ -349,6 +349,31 @@ img {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
+#contact-section-A .text-fields {
+  display: grid;
+  grid-template-areas: "name email" "subject phone" "message message";
+  gap: 1.2rem;
+  margin-bottom: 1.2rem; }
+  #contact-section-A .text-fields .name-input {
+    grid-area: name; }
+  #contact-section-A .text-fields .subject-input {
+    grid-area: subject; }
+  #contact-section-A .text-fields .email-input {
+    grid-area: email; }
+  #contact-section-A .text-fields .phone-input {
+    grid-area: phone; }
+  #contact-section-A .text-fields .message-input {
+    grid-area: message;
+    height: 100px; }
+  #contact-section-A .text-fields .text-input {
+    padding: 1rem 1.5rem;
+    border: 1px solid #000; }
+    #contact-section-A .text-fields .text-input:hover {
+      border-color: #ffbc00; }
+
+#contact-section-A button[type="submit"] {
+  width: 50%; }
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

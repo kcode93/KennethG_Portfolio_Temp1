@@ -145,15 +145,15 @@
 		}
 	}
 
-	&-section-B{
-		.progress{
+	&-section-B {
+		.progress {
 			overflow: hidden;
 			height: 2rem;
 			background-color: $medium-color;
 			border-radius: 5px;
 			margin-bottom: 1rem;
 
-			div{
+			div {
 				height: 100%;
 				color: #fff;
 				text-align: center;
@@ -162,25 +162,25 @@
 		}
 	}
 
-	&-section-C{
-		.about-logos{
+	&-section-C {
+		.about-logos {
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
 			gap: 2rem;
 
-			img{
+			img {
 				width: 70%;
 			}
 		}
 	}
 
-	&-section-D{
-		.testimonials{
+	&-section-D {
+		.testimonials {
 			display: grid;
 			gap: 0.5rem;
-			grid-template-columns: repeat(4,1fr);
+			grid-template-columns: repeat(4, 1fr);
 
-			ul{
+			ul {
 				list-style: none;
 				margin-top: 1rem;
 				display: flex;
@@ -189,20 +189,68 @@
 				text-align: center;
 			}
 
-			p{
+			p {
 				border: 1px solid $medium-color;
 				border-radius: 5px;
 				padding: 0.5rem;
 				text-align: center;
 			}
 
-			img{
+			img {
 				width: 100px;
 				height: 100px;
 				border-radius: 50%;
 				margin-right: 0.5rem;
 			}
 		}
+	}
+}
 
+#contact {
+	&-section-A {
+		.text-fields {
+			display: grid;
+			grid-template-areas:
+				"name email"
+				"subject phone"
+				"message message";
+			gap: 1.2rem;
+			margin-bottom: 1.2rem;
+
+			//Grid Areas
+			.name-input {
+				grid-area: name;
+			}
+
+			.subject-input {
+				grid-area: subject;
+			}
+
+			.email-input {
+				grid-area: email;
+			}
+
+			.phone-input {
+				grid-area: phone;
+			}
+
+			.message-input {
+				grid-area: message;
+				height: 100px;
+			}
+
+			.text-input {
+				padding: 1rem 1.5rem;
+				border: 1px solid #000;
+
+				&:hover {
+					border-color: $primary-color;
+				}
+			}
+		}
+
+		button[type="submit"] {
+			width: 50%;
+		}
 	}
 }
