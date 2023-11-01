@@ -1,0 +1,168 @@
+//tablets & Smaller
+@media (max-width: 800px) {
+	#header-home {
+		height: 35rem;
+		margin-bottom: 1rem;
+
+		.header-content {
+			padding: 5rem 5rem;
+			span,
+			h1 {
+				font-size: 2rem;
+			}
+
+			span {
+				display: block;
+				margin-top: 1.5rem;
+			}
+
+			.lead {
+				font-size: 1.8rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	#main-nav {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 0;
+
+		li {
+			padding: 1rem;
+		}
+	}
+
+	#header {
+		&-home {
+			height: 12rem;
+			border-bottom: 0.6rem solid $primary-color;
+			.header-content {
+				display: none;
+			}
+		}
+
+		&-inner {
+			height: 12rem;
+		}
+	}
+
+	//Stack Grid Columns
+	#home-section-A .specials,
+	#home-section-B .stats,
+	#home-section-C .process,
+	#about-section-D .testimonials,
+	#contact-section-B .contact-info,
+	#projects-section-A .projects-grid {
+		grid-template-columns: 1fr;
+	}
+
+	//Sections
+	#home {
+		&-section-A {
+			.specials div {
+				border-bottom: 1.5px solid $primary-color;
+				padding: 1rem;
+
+				&:last-child {
+					border-bottom: none;
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+
+	#about {
+		&-section-A {
+			.about-info {
+				grid-template-areas:
+					"bioimage"
+					"bio"
+					"aw1"
+					"aw2"
+					"aw3";
+
+				.bio {
+					border-left: none;
+					border-bottom: 5px solid $primary-color;
+				}
+			}
+
+			h3 {
+				font-weight: bold;
+			}
+		}
+
+		&-section-C {
+			display: none;
+		}
+	}
+
+	#contact {
+		&-section-A {
+			.text-fields {
+				grid-template-areas:
+					"name"
+					"subject"
+					"email"
+					"phone"
+					"message";
+			}
+		}
+
+		&-section-B {
+			div {
+				margin-bottom: 1rem;
+				padding-bottom: 1rem;
+				border-bottom: solid 2px $primary-color;
+
+				&:last-child {
+					margin-bottom: 0;
+					padding-bottom: 0;
+					border-bottom: none;
+				}
+			}
+		}
+
+		&-section-C {
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	}
+
+	//Footer
+	#main-footer {
+		height: 7rem;
+
+		.footer-content {
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 1rem;
+			height: 6.5rem;
+		}
+	}
+}
+
+//Landscape
+@media (max-height: 580px) {
+	#header-home {
+		.header-content {
+			padding-top: 3rem;
+
+			span {
+				padding-top: 0.5rem;
+				margin-top: 0.5rem;
+				display: block;
+			}
+		}
+	}
+
+	#about {
+		&-section-C {
+			display: none;
+		}
+	}
+}

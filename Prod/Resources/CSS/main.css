@@ -643,3 +643,85 @@ input[class^="btn-"]:hover {
 .bg-medium {
   background-color: #ccc;
   color: #000; }
+
+@media (max-width: 800px) {
+  #header-home {
+    height: 35rem;
+    margin-bottom: 1rem; }
+    #header-home .header-content {
+      padding: 5rem 5rem; }
+      #header-home .header-content span,
+      #header-home .header-content h1 {
+        font-size: 2rem; }
+      #header-home .header-content span {
+        display: block;
+        margin-top: 1.5rem; }
+      #header-home .header-content .lead {
+        font-size: 1.8rem; } }
+
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0; }
+    #main-nav li {
+      padding: 1rem; }
+  #header-home {
+    height: 12rem;
+    border-bottom: 0.6rem solid #ffbc00; }
+    #header-home .header-content {
+      display: none; }
+  #header-inner {
+    height: 12rem; }
+  #home-section-A .specials,
+  #home-section-B .stats,
+  #home-section-C .process,
+  #about-section-D .testimonials,
+  #contact-section-B .contact-info,
+  #projects-section-A .projects-grid {
+    grid-template-columns: 1fr; }
+  #home-section-A .specials div {
+    border-bottom: 1.5px solid #ffbc00;
+    padding: 1rem; }
+    #home-section-A .specials div:last-child {
+      border-bottom: none;
+      padding-bottom: 0; }
+  #about-section-A .about-info {
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
+    #about-section-A .about-info .bio {
+      border-left: none;
+      border-bottom: 5px solid #ffbc00; }
+  #about-section-A h3 {
+    font-weight: bold; }
+  #about-section-C {
+    display: none; }
+  #contact-section-A .text-fields {
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+  #contact-section-B div {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 2px #ffbc00; }
+    #contact-section-B div:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none; }
+  #contact-section-C h1 {
+    font-size: 2rem; }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1rem;
+      height: 6.5rem; } }
+
+@media (max-height: 580px) {
+  #header-home .header-content {
+    padding-top: 3rem; }
+    #header-home .header-content span {
+      padding-top: 0.5rem;
+      margin-top: 0.5rem;
+      display: block; }
+  #about-section-C {
+    display: none; } }
