@@ -361,7 +361,7 @@ img {
   margin-bottom: 1rem;
   overflow: hidden; }
   .cell-item::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     background: inherit;
@@ -378,6 +378,43 @@ img {
     transform: scale(2);
     transition: transform 1.5s;
     cursor: pointer; }
+
+.cell-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  transform: translateY(-20%);
+  transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition-delay: 300ms; }
+  .cell-text:hover {
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer; }
+
+.cell-item-text-wrap {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.cell-text-title {
+  font-size: 2rem;
+  padding: 0 1rem;
+  margin: 5px 0 0 0; }
+
+.cell-text-category {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin: 0; }
 
 #main-footer {
   background-color: #333;
